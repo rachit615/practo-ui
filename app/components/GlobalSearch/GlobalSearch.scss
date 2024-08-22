@@ -1,0 +1,54 @@
+.customSearch {
+  &.ant-select {
+    .ant-select-selector {
+      border: 1px solid #b4b4be;
+      border-radius: 2px 0 0 2px;
+    }
+    // Override the default focus styles
+    &.ant-select-focused .ant-select-selector {
+      border-color: #b4b4be !important;
+      box-shadow: none !important; // Remove the default blue shadow
+    }
+
+    .ant-select-selector:hover {
+      border-color: #b4b4be !important;
+    }
+  }
+}
+
+.suggestionSearch {
+  &.ant-select {
+    .ant-select-selector {
+      border-left: none !important;
+    }
+  }
+}
+
+.searchDropdown {
+  border: 1px solid #787887;
+  box-shadow: 0 1px 2px #b4b4be;
+  border-radius: 0;
+  &.ant-select-dropdown {
+    padding: 0 !important;
+    .ant-select-item {
+      padding: 10px 12px;
+      border-bottom: 1px solid #e0e0e5;
+      border-radius: 0 !important;
+    }
+  }
+}
+
+// .searchDropdown .rc-virtual-list {
+// }
+
+// .searchDropdown .rc-virtual-list-holder {
+//   overflow-y: visible !important; /* Ensure no scrollbar */
+// }
+
+// .searchDropdown .rc-virtual-list-scrollbar {
+//   display: none !important; /* Hide the scrollbar */
+// }
+
+// .searchDropdown .rc-virtual-list-holder-inner {
+//   overflow-y: visible !important; /* Remove overflow to prevent scrollbar */
+// }

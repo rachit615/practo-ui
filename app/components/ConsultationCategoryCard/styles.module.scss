@@ -1,0 +1,44 @@
+.consultationCardWrapper {
+  padding: 30px;
+  width: 180px;
+  margin: 0 10px;
+  cursor: pointer;
+  .categoryWrapper {
+    .title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #414146;
+      margin-top: 12px;
+      text-align: center;
+    }
+    .consultNowBtn {
+      color: #14bef0;
+      text-transform: uppercase;
+      font-size: 12px;
+      line-height: 1.25;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+}
+
+.consultationCategoryCards {
+  margin-top: 60px;
+
+  .headerSection {
+    .headerTitle {
+      font-size: 24px;
+      font-weight: 700;
+      color: #414146;
+      padding-top: 20px;
+    }
+    .headerSubtitle {
+      color: #414146;
+      margin-top: 5px;
+    }
+  }
+  .consultationCards {
+    display: flex;
+    align-items: center;
+  }
+}

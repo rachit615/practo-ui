@@ -1,0 +1,21 @@
+.secondaryNavbar {
+  display: flex;
+  margin: 10px;
+  border-bottom: 1px solid rgba(216, 216, 216, 0.5);
+  justify-content: center;
+  .navItemsList {
+    display: flex;
+    li {
+      cursor: pointer;
+      padding: 0 20px;
+      :hover {
+        text-decoration: underline;
+      }
+      p {
+        padding: 10px;
+        font-size: 14px;
+        color: #4a4a4a;
+      }
+    }
+  }
+}
