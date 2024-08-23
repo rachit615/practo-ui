@@ -4,8 +4,7 @@ import "./input.scss";
 import classNames from "classnames";
 import styles from "./styles.module.scss";
 
-const AntdInput = ({ variant, ...props }) => {
-  const { className } = props;
+const AntdInput = ({ variant, className, ...props }) => {
   return (
     <Input
       className={classNames("customInput", className, {

@@ -4,7 +4,7 @@ import Image from "next/image";
 import styles from "./styles.module.scss";
 import SecondaryNavbar from "../components/Auth/SecondaryNavBar/index";
 
-const AuthLayout = () => {
+const AuthLayout = ({ children }) => {
   return (
     <div className={styles.container}>
       <SecondaryNavbar />
@@ -15,9 +15,7 @@ const AuthLayout = () => {
           height={"394"}
           alt="auth img"
         />
-        <div className={styles.loginSignUp}>
-          <NewPatientSignupPage />
-        </div>
+        <div className={styles.loginSignUp}>{children}</div>
       </div>
     </div>
   );

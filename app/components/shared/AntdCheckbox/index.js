@@ -2,7 +2,8 @@ import React from "react";
 import { Checkbox } from "antd";
 
 const AntdCheckbox = (props) => {
-  return <Checkbox {...props} />;
+  const { children } = props;
+  return <Checkbox {...props}>{children}</Checkbox>;
 };
 
 export default AntdCheckbox;
