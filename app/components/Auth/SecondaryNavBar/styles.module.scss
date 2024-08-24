@@ -19,3 +19,15 @@
     }
   }
 }
+
+.activeLink {
+  border-bottom: 3px solid #14bef0;
+
+  :hover {
+    text-decoration: none !important;
+  }
+  p {
+    color: #14bef0 !important;
+    font-weight: bold !important;
+  }
+}

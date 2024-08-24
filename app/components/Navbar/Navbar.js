@@ -6,9 +6,13 @@ import AntdDropdown from "../shared/AntdDropdown/index";
 import { corporateMenuItems } from "./constant";
 import { DownOutlined } from "@ant-design/icons";
 import { Button } from "antd";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
-  const handleAuthClick = () => {};
+  const router = useRouter();
+  const handleAuthClick = () => {
+    router.push("/login");
+  };
   const dropdownItem = (menuItems, textLabel) => {
     return (
       <AntdDropdown menu={menuItems} placement={"bottomRight"}>
