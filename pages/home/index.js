@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import OfferingCards from "../../app/components/OfferingsCard/offeringCards";
-import ConsultationCategoryCards from "../../app/components/ConsultationCategoryCard/consultationCategoryCards";
-import DoctorSpecialityCards from "../../app/components/DoctorSpecialityCard/doctorSpecialityCards";
+import OfferingCards from "../../app/components/Home/OfferingsCard/offeringCards";
+import ConsultationCategoryCards from "../../app/components/Home/ConsultationCategoryCard/consultationCategoryCards";
+import DoctorSpecialityCards from "../../app/components/Home/DoctorSpecialityCard/doctorSpecialityCards";
+
 import GlobalSearch from "../../app/components/GlobalSearch/index";
 
 const PractoHomePage = () => {

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import styles from "./styles.module.scss";
-import SlickCarousel from "../shared/SlickCarousel";
+import SlickCarousel from "../../../components/shared/SlickCarousel/index";
 import DoctorSpecialityCard from "./index";
 import { doctorSpecialityCards } from "./helper";
 

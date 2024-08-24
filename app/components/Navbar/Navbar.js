@@ -13,6 +13,9 @@ const Navbar = () => {
   const handleAuthClick = () => {
     router.push("/login");
   };
+  const handleGotoHomepage = () => {
+    router.push("/");
+  };
   const dropdownItem = (menuItems, textLabel) => {
     return (
       <AntdDropdown menu={menuItems} placement={"bottomRight"}>
@@ -30,6 +33,7 @@ const Navbar = () => {
         width={"154"}
         height={"75"}
         className={styles.practoLogo}
+        onClick={handleGotoHomepage}
       />
       <div className={styles.navbarMain}>
         <div className={styles.navbarTabs}>
