@@ -1,0 +1,84 @@
+.findDoctorsBanner {
+  background: url("https://www.practostatic.com/web-assets/home/assets/images/homepage.06859593240c3efd483fe48951cfe6ff.svg");
+  min-height: 460px;
+  background-attachment: fixed;
+  background-position-y: 60px;
+  .headerContainer {
+    padding-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+  }
+  .subHeading {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .findDoctorsSearchContainer {
+    display: flex;
+    justify-content: center;
+    .searchContainerClass {
+      padding: 0 !important;
+    }
+    .searchHeight {
+      height: 50px !important;
+    }
+  }
+  .popularSearches {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    .popularSearchLabel {
+      color: #8d93b3;
+    }
+    .popularSearchList {
+      display: flex;
+      color: #8d93b3;
+      .popularSearchItem {
+        margin-left: 25px;
+        cursor: pointer;
+        color: #8d93b3;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.dataSecurityInfo {
+  background-color: #f0f0f5;
+  padding-bottom: 108px;
+  .highlights {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .highlightsList {
+    .listItem {
+      .listItemDesc {
+        line-height: 1.4;
+        color: #737382;
+      }
+    }
+  }
+}
+
+.fontWeight700 {
+  font-weight: 700;
+}
+
+.sectionContainer {
+  padding: 0 100px;
+  width: 100%;
+}
+
+.bgGray {
+  background-color: #f0f0f5;
+}

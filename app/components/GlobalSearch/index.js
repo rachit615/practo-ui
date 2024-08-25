@@ -6,7 +6,7 @@ import CustomSelect from "../shared/CustomSelect/index";
 import "./GlobalSearch.scss";
 import classNames from "classnames";
 
-const GlobalSearch = () => {
+const GlobalSearch = ({ searchWrapperClass, globalSearchHeight }) => {
   const options = [
     { value: "varacha-road", label: "Varacha Road" },
     { value: "adajan", label: "Adajan Dn" },
@@ -135,9 +135,11 @@ const GlobalSearch = () => {
   };
 
   return (
-    <div className={styles.globalSearchWrapper}>
+    <div className={classNames(styles.globalSearchWrapper, searchWrapperClass)}>
       <CustomSelect
-        className={classNames(styles.locationSearch, "customSearch")}
+        className={classNames(styles.locationSearch, "customSearch", {
+          [globalSearchHeight]: globalSearchHeight,
+        })}
         placeholder="Search location"
         optionLabelProp="label2"
         allowClear
@@ -166,7 +168,10 @@ const GlobalSearch = () => {
         className={classNames(
           styles.suggestionSearch,
           "customSearch",
-          "suggestionSearch"
+          "suggestionSearch",
+          {
+            [globalSearchHeight]: globalSearchHeight,
+          }
         )}
         placeholder="Search doctors, clinics, hospitals, etc"
         optionLabelProp="label2"
