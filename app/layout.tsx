@@ -14,7 +14,7 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Practo | Video Consultation with doctors",
+  title: "Practo | Video Consultation with doctors, Book doctor appointments",
   description: "Your health in your hands",
 };
 
