@@ -39,3 +39,12 @@
     margin-top: 20px;
   }
 }
+.doctorSpecialityCard:hover .title {
+  color: #14bef0; 
+}
+.doctorSpecialityCard:hover .cardImg{
+  cursor: pointer;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, .1);
+  transition: box-shadow .3s ease, border .3s ease;
+}
+
