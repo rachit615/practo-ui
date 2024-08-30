@@ -44,3 +44,26 @@ export const highlights = [
     display: "Stringent data privacy policies",
   },
 ];
+
+export const certificatesList = [
+  {
+    title: "256-bit",
+    subtitle: "encryption",
+    image: "encryption",
+  },
+  {
+    title: "ISO 27001",
+    subtitle: "certified",
+    image: "isocertified",
+  },
+  {
+    title: "HIPAA",
+    subtitle: "compliant data centers",
+    image: "HIPAA",
+  },
+  {
+    title: "DSCI",
+    subtitle: "member",
+    image: "DSCI",
+  },
+];

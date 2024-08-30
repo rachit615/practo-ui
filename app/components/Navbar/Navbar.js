@@ -6,10 +6,14 @@ import AntdDropdown from "../shared/AntdDropdown/index";
 import { corporateMenuItems } from "./constant";
 import { DownOutlined } from "@ant-design/icons";
 import { Button } from "antd";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
+import classNames from "classnames";
 
 const Navbar = () => {
   const router = useRouter();
+  const pathname = usePathname();
+  const isDoctorRoute = pathname === "/doctors";
+
   const handleAuthClick = () => {
     router.push("/login");
   };
@@ -26,8 +30,13 @@ const Navbar = () => {
       </AntdDropdown>
     );
   };
+
   return (
-    <div className={styles.navbarWrapper}>
+    <div
+      className={classNames(styles.navbarWrapper, {
+        [styles.doctorNavbarClass]: isDoctorRoute,
+      })}
+    >
       <Image
         src={"	https://blog.practo.com/wp-content/uploads/2017/04/1.png"}
         width={"154"}
