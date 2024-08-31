@@ -1,0 +1,47 @@
+.highlights {
+  font-size: 40px;
+  width: 50%;
+  margin-bottom: 20px;
+
+  .highlightsTitle {
+    margin-bottom: 20px;
+    > h2 {
+      line-height: 48px;
+      color: #414146;
+    }
+  }
+}
+
+.highlightsList {
+  .listItem {
+    display: flex;
+    height: 33.5px;
+    .listItemDesc {
+      line-height: 1.4;
+      color: #737382;
+      font-size: 18px;
+    }
+    .checkIcon {
+      margin-left: 0.2rem;
+      margin-right: 0.2rem;
+      height: 24px;
+    }
+  }
+}
+
+.imageWrapper {
+  position: relative;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnWrapper {
+  margin-top: 25px;
+}
+
+.sectionContent {
+  display: flex;
+  justify-content: space-between;
+}

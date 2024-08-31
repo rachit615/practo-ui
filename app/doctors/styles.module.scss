@@ -55,47 +55,6 @@
 .dataSecurityInfoWrapper {
   padding: 108px 0;
   background-color: #f0f0f5;
-  .dataSecurityInfo {
-    display: flex;
-    .highlights {
-      font-size: 40px;
-      width: 50%;
-      margin-bottom: 20px;
-
-      .highlightsTitle {
-        margin-bottom: 20px;
-        > h2 {
-          line-height: 48px;
-          color: #414146;
-        }
-      }
-    }
-    .highlightsList {
-      .listItem {
-        display: flex;
-        height: 33.5px;
-        .listItemDesc {
-          line-height: 1.4;
-          color: #737382;
-          font-size: 18px;
-        }
-        .checkIcon {
-          margin-left: 0.2rem;
-          margin-right: 0.2rem;
-          height: 24px;
-        }
-      }
-    }
-    .securytImageWrapper {
-      position: relative;
-      width: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      .securtyImage {
-      }
-    }
-  }
 }
 
 .fontWeight700 {
@@ -111,19 +70,16 @@
   background-color: #f0f0f5;
 }
 
-.readMoreBtnWrapper {
-  margin-top: 25px;
-  .readMoreBtn {
-    background: #199fd9 !important;
-    height: 40px;
-    border-radius: 2px;
-    width: 128px;
-    // :global {
-    //   &.ant-btn-primary:hover {
-    //     background: #13bef0 !important;
-    //   }
-    // }
-  }
+.readMoreBtn {
+  background: #199fd9 !important;
+  height: 40px !important;
+  border-radius: 2px;
+  width: 128px !important;
+  // :global {
+  //   &.ant-btn-primary:hover {
+  //     background: #13bef0 !important;
+  //   }
+  // }
 }
 
 .certificatesList {
