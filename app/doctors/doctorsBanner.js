@@ -1,8 +1,10 @@
-import React from "react";
-import styles from "./styles.module.scss";
-import GlobalSearch from "../components/GlobalSearch/index";
-import { popularSearchLinks } from "./helper";
-import { appFeatures } from "./helper";
+import React from 'react';
+import styles from './styles.module.scss';
+import GlobalSearch from '../components/GlobalSearch/index';
+import { popularSearchLinks } from './helper';
+import { appFeatures } from './helper';
+import { serviceMenus } from './helper';
+import Icon from '../components/shared/Icon/index';
 
 const DoctorsBanner = () => {
   return (
@@ -34,6 +36,22 @@ const DoctorsBanner = () => {
         {appFeatures.map((feature) => (
           <div className={styles.appFeature}></div>
         ))}
+      </div>
+      <div className={styles.serviceMenuWrapper}>
+        <div className={styles.serviceMenu}>
+          {serviceMenus.map((servMenu) => {
+            return (
+              <a className={styles.serviceMeneOption}>
+                <Icon
+                  name={servMenu.iconName}
+                  className={styles.serviceMenuIcon}
+                  alt='Chat Icon'
+                />
+                <span className={styles.serviceMenuText}>{servMenu.title}</span>
+              </a>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

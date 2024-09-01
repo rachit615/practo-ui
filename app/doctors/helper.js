@@ -67,3 +67,30 @@ export const certificatesList = [
     image: "DSCI",
   },
 ];
+
+export const serviceMenus = [
+  {
+    iconName: "chat",
+    title: "Consult with a doctor",
+  },
+  {
+    iconName: "cart",
+    title: "Order Medicines",
+  },
+  {
+    iconName: "book-closed",
+    title: "View medical records",
+  },
+  {
+    iconName: "lab",
+    title: "Book test",
+  },
+  {
+    iconName: "book-open",
+    title: "Read articles",
+  },
+  {
+    iconName: "briefcase",
+    title: "For healthcare providers",
+  },
+];
