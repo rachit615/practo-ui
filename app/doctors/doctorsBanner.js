@@ -1,10 +1,10 @@
-import React from 'react';
-import styles from './styles.module.scss';
-import GlobalSearch from '../components/GlobalSearch/index';
-import { popularSearchLinks } from './helper';
-import { appFeatures } from './helper';
-import { serviceMenus } from './helper';
-import Icon from '../components/shared/Icon/index';
+import React from "react";
+import styles from "./styles.module.scss";
+import GlobalSearch from "../components/GlobalSearch/index";
+import { popularSearchLinks } from "./helper";
+import { appFeatures } from "./helper";
+import { serviceMenus } from "./helper";
+import Icon from "../components/shared/Icon/index";
 
 const DoctorsBanner = () => {
   return (
@@ -41,11 +41,11 @@ const DoctorsBanner = () => {
         <div className={styles.serviceMenu}>
           {serviceMenus.map((servMenu) => {
             return (
-              <a className={styles.serviceMeneOption}>
+              <a key={servMenu.titlex} className={styles.serviceMeneOption}>
                 <Icon
                   name={servMenu.iconName}
                   className={styles.serviceMenuIcon}
-                  alt='Chat Icon'
+                  alt="Chat Icon"
                 />
                 <span className={styles.serviceMenuText}>{servMenu.title}</span>
               </a>

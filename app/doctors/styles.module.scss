@@ -106,12 +106,13 @@
   justify-content: center;
   position: absolute;
   bottom: 0;
+  height: 80px;
+
   width: 100%;
 }
 
 .serviceMenu {
   color: #ffffff;
-  height: 80px;
   width: 70%;
   display: flex;
   align-items: center;
@@ -124,8 +125,9 @@
   justify-content: center;
   flex-direction: column;
   border-right: 1px solid #4a5387;
-  padding-right: 17px;
+  padding: 0px 17px;
   cursor: pointer;
+  white-space: nowrap;
 }
 .serviceMeneOption:last-child {
   border-right: none;
