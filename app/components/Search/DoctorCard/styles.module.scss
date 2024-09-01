@@ -1,0 +1,117 @@
+.doctorCard {
+  padding: 24px 0;
+  display: flex;
+  .doctorCardDetails {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.dotSeprator {
+  border-radius: 50%;
+  border: 2px solid #7f7f7f;
+  display: inline-block;
+  margin: 2px 3px;
+}
+
+.color {
+  color: #199fd9;
+  font-size: 14px;
+}
+
+.viewProfile {
+  margin-top: 16px;
+  padding: 0 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.doctorInfoWrapper {
+  padding: 0 16px;
+  .doctorLabel {
+    font-size: 20px;
+    color: #199fd9;
+  }
+  .specialityExperienceWrapper {
+    .speciality {
+      font-size: 14px;
+      color: #737382;
+    }
+    .experince {
+      margin-top: 4px;
+    }
+  }
+}
+
+.mb4 {
+  margin-bottom: 4px;
+}
+
+.doctorApointmentSection {
+  position: relative;
+  .doctorAppointmentWrapper {
+    position: absolute;
+    bottom: 0;
+    .doctorApoointnt {
+      // margin: 0 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      span {
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+.font11 {
+  font-size: 11px;
+}
+
+.bookClinicBtn {
+  width: 212px !important;
+  height: 40px;
+  padding: 4px 0;
+}
+
+.rating {
+  display: flex;
+}
+
+.mr2rem {
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.successLabelBold {
+  // background: #00a500;
+}
+
+.availabitlyWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ratingStoriesWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  font-size: 12px;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+  max-width: 100%;
+  background-color: #00a500;
+  color: white;
+}

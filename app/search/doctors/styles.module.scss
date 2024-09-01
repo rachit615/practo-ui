@@ -1,0 +1,54 @@
+.searchHeaderWrapper {
+  padding-top: 15px;
+  padding-bottom: 12px;
+  margin: auto;
+  width: 1180px;
+  display: flex;
+
+  .searchContainer {
+    width: 75%;
+    .locationWidth {
+      width: 40% !important;
+    }
+    .suggestionWidth {
+      width: 60% !important;
+    }
+  }
+  .primeClinicWrapper {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+
+    .label {
+      color: #737382;
+      line-height: 16.67px;
+      font-size: 12px;
+      margin-bottom: 6px;
+    }
+    .primeClicnicText {
+      color: #414146;
+      font-size: 14px;
+      line-height: 16.67px;
+      .primeLabel:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.purpleColor {
+  color: #8a45e6;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.p0 {
+  padding: 0 !important;
+}
+
+.fontWeight700 {
+  font-weight: 700;
+}
