@@ -45,6 +45,39 @@ export const highlights = [
   },
 ];
 
+export const appointHighlights = [
+  {
+    display: "100,000 Verified doctors",
+  },
+  {
+    display: "3M+ Patient recommendations",
+  },
+  {
+    display: "25M Patients/year",
+  },
+];
+export const medicineHighlights = [
+  {
+    display: "Guaranteed availability",
+  },
+  {
+    display: "Over 130,000+ genuine medicines",
+  },
+  {
+    display: "Home delivery in 24hrs",
+  },
+];
+export const businessHighlights = [
+  {
+    display: "Get seen by 25M+ patients on Practo.com",
+  },
+  {
+    display: "The most advanced software for clinics and hospitals",
+  },
+  {
+    display: "State of the art business analytics for enterprises",
+  },
+];
 export const certificatesList = [
   {
     title: "256-bit",

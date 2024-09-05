@@ -83,6 +83,10 @@
   // }
 }
 
+.btnAutoWidth {
+  width: auto !important;
+}
+
 .certificatesList {
   display: flex;
   width: 925px;
@@ -153,3 +157,16 @@
   line-height: 28px;
   transition: transform 0.2s ease-out;
 }
+
+.doctorAppointmentWrapper{
+  padding : 43px 0 0 0;
+}
+
+.medicineWrapper{
+  padding : 43px 0 0 0;
+}
+
+.businessWrapper{
+  padding: 43px 0 0 0;
+}
+
